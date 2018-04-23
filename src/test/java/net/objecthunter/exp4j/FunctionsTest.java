@@ -29,30 +29,30 @@ import static org.junit.Assert.assertTrue;
 public class FunctionsTest {
     @Test(expected = IllegalArgumentException.class)
     public void testFunctionNameNull() throws Exception {
-        Function f = new Function(null) {
+        Function<Double, Double> f = new Function<Double, Double>(null) {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testFunctionNameEmpty() throws Exception {
-        Function f = new Function("") {
+        Function<Double, Double> f = new Function<Double, Double>("") {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
 
     @Test
     public void testFunctionNameZeroArgs() throws Exception {
-        Function f = new Function("foo", 0) {
+        Function<Double, Double> f = new Function<Double, Double>("foo", 0) {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
         assertEquals(0f, f.apply(), 0f);
@@ -60,40 +60,40 @@ public class FunctionsTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testFunctionNameNegativeArgs() throws Exception {
-        Function f = new Function("foo", -1) {
+        Function<Double, Double> f = new Function<Double, Double>("foo", -1) {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testIllegalFunctionName1() throws Exception {
-        Function f = new Function("1foo") {
+        Function<Double, Double> f = new Function<Double, Double>("1foo") {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testIllegalFunctionName2() throws Exception {
-        Function f = new Function("_&oo") {
+        Function<Double, Double> f = new Function<Double, Double>("_&oo") {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testIllegalFunctionName3() throws Exception {
-        Function f = new Function("o+o") {
+        Function<Double, Double> f = new Function<Double, Double>("o+o") {
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }

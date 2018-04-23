@@ -26,19 +26,21 @@ import java.util.concurrent.Future;
 
 import static org.junit.Assert.assertEquals;
 
+import units.qual.*;
+
 public class ConcurrencyTests {
 
     @Test
     public void testFutureEvaluation() throws Exception {
         ExecutorService exec = Executors.newFixedThreadPool(10);
         int numTests = 10000;
-        double[] correct1 = new double[numTests];
+        @Dimensionless double[] correct1 = new @Dimensionless double[numTests];
         Future[] results1 = new Future[numTests];
 
-        double[] correct2 = new double[numTests];
+        @Dimensionless double[] correct2 = new @Dimensionless double[numTests];
         Future[] results2 = new Future[numTests];
 
-        for (int i = 0; i < numTests;i++) {
+        for (@Dimensionless int i = 0; i < numTests;i++) {
             correct1[i] = Math.sin(2*Math.PI/(i+1));
             results1[i] = new ExpressionBuilder("sin(2pi/(n+1))")
                     .variables("pi", "n")
@@ -57,9 +59,9 @@ public class ConcurrencyTests {
                     .evaluateAsync(exec);
         }
 
-        for (int i = 0; i< numTests;i++) {
-            assertEquals(correct1[i], (Double) results1[i].get(), 0d);
-            assertEquals(correct2[i], (Double) results2[i].get(), 0d);
+        for (@Dimensionless int i = 0; i< numTests;i++) {
+            assertEquals(correct1[i], (@Dimensionless Double) results1[i].get(), 0d);
+            assertEquals(correct2[i], (@Dimensionless Double) results2[i].get(), 0d);
         }
     }
 }
