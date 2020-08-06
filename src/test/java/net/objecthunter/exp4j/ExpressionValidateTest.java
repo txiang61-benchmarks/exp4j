@@ -30,10 +30,10 @@ public class ExpressionValidateTest {
 	/**
 	 * Dummy function with 2 arguments.
 	 */
-	Function beta = new Function("beta", 2) {
+	Function<Double, Double> beta = new Function<Double, Double>("beta", 2) {
 
 		@Override
-		public double apply(double... args) {
+		public Double apply(Double... args) {
 			return args[1] - args[0];
 		}
 	};
@@ -41,10 +41,10 @@ public class ExpressionValidateTest {
 	/**
 	 * Dummy function with 3 arguments.
 	 */
-	Function gamma = new Function("gamma", 3) {
+	Function<Double, Double> gamma = new Function<Double, Double>("gamma", 3) {
 
 		@Override
-		public double apply(double... args) {
+		public Double apply(Double... args) {
 			return args[0] * args[1] / args[2];
 		}
 	};
@@ -52,10 +52,10 @@ public class ExpressionValidateTest {
 	/**
 	 * Dummy function with 7 arguments.
 	 */
-	Function eta = new Function("eta", 7) {
+	Function<Double, Double> eta = new Function<Double, Double>("eta", 7) {
 
 		@Override
-		public double apply(double... args) {
+		public Double apply(Double... args) {
 			double eta = 0;
 			for (double a : args) {
 				eta += a;
@@ -280,9 +280,9 @@ public class ExpressionValidateTest {
 	// https://github.com/fasseg/exp4j/issues/59
 	@Test
 	public void testNoArgFunctionValidation() throws Exception {
-		Function now = new Function("now", 0) {
+		Function<Double, Double> now = new Function<Double, Double>("now", 0) {
 			@Override
-			public double apply(double... args) {
+			public Double apply(Double... args) {
 				return (double) new Date().getTime();
 			}
 		};

@@ -30,6 +30,8 @@ import org.junit.Test;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
+import units.qual.*;
+import units.UnitsTools;
 
 public class ExpressionTest {
     @Test
@@ -243,7 +245,7 @@ public class ExpressionTest {
                     } catch (InterruptedException e1) {
                         e1.printStackTrace();
                     }
-                    assertEquals(Math.sin(x), e.evaluate(), 0f);
+                    assertEquals(Math.sin(x * UnitsTools.rad), e.evaluate(), 0f);
                 }
             });
         }

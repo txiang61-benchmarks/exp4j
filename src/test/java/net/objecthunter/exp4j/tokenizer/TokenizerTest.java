@@ -373,10 +373,10 @@ public class TokenizerTest {
 
     @Test
     public void testTokenization18() throws Exception {
-        final Function log2 = new Function("log2") {
+        final Function<Double, Double> log2 = new Function<Double, Double>("log2") {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 return Math.log(args[0]) / Math.log(2d);
             }
         };
@@ -402,10 +402,10 @@ public class TokenizerTest {
 
     @Test
     public void testTokenization19() throws Exception {
-        Function avg = new Function("avg", 2) {
+        Function<Double, Double> avg = new Function<Double, Double>("avg", 2) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 double sum = 0;
                 for (double arg : args) {
                     sum += arg;

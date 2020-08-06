@@ -31,6 +31,9 @@ import net.objecthunter.exp4j.operator.Operator;
 
 import org.junit.Test;
 
+import units.qual.*;
+import units.UnitsTools;
+
 public class ExpressionBuilderTest {
 
     @Test
@@ -48,7 +51,7 @@ public class ExpressionBuilderTest {
                 .build()
                 .setVariable("x", Math.PI)
                 .evaluate();
-        double expected = cos(Math.PI);
+        double expected = cos(Math.PI * UnitsTools.rad);
         assertEquals(-1d, result, 0d);
     }
 
@@ -61,16 +64,16 @@ public class ExpressionBuilderTest {
                 .setVariable("x", x)
                 .evaluate();
 
-        double expected = sin(x) - log(3 * x / 4);
+        double expected = sin(x * UnitsTools.rad) - log(3 * x / 4);
         assertEquals(expected, result, 0d);
     }
 
     @Test
     public void testExpressionBuilder4() throws Exception {
-        Function log2 = new Function("log2", 1) {
+        Function<Double, Double> log2 = new Function<Double, Double>("log2", 1) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 return Math.log(args[0]) / Math.log(2);
             }
         };
@@ -85,10 +88,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testExpressionBuilder5() throws Exception {
-        Function avg = new Function("avg", 4) {
+        Function<Double, Double> avg = new Function<Double, Double>("avg", 4) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 double sum = 0;
                 for (double arg : args) {
                     sum += arg;
@@ -273,10 +276,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction1() throws Exception {
-        Function custom = new Function("timespi") {
+        Function<Double, Double> custom = new Function<Double, Double>("timespi") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.PI;
             }
         };
@@ -291,10 +294,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction2() throws Exception {
-        Function custom = new Function("loglog") {
+        Function<Double, Double> custom = new Function<Double, Double>("loglog") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return Math.log(Math.log(values[0]));
             }
         };
@@ -309,17 +312,17 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction3() throws Exception {
-        Function custom1 = new Function("foo") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("foo") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.E;
             }
         };
-        Function custom2 = new Function("bar") {
+        Function<Double, Double> custom2 = new Function<Double, Double>("bar") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.PI;
             }
         };
@@ -335,10 +338,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction4() throws Exception {
-        Function custom1 = new Function("foo") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("foo") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.E;
             }
         };
@@ -354,17 +357,17 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction5() throws Exception {
-        Function custom1 = new Function("foo") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("foo") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.E;
             }
         };
-        Function custom2 = new Function("bar") {
+        Function<Double, Double> custom2 = new Function<Double, Double>("bar") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.PI;
             }
         };
@@ -381,17 +384,17 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction6() throws Exception {
-        Function custom1 = new Function("foo") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("foo") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.E;
             }
         };
-        Function custom2 = new Function("bar") {
+        Function<Double, Double> custom2 = new Function<Double, Double>("bar") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.PI;
             }
         };
@@ -407,10 +410,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction7() throws Exception {
-        Function custom1 = new Function("half") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("half") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] / 2;
             }
         };
@@ -424,10 +427,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction10() throws Exception {
-        Function custom1 = new Function("max", 2) {
+        Function<Double, Double> custom1 = new Function<Double, Double>("max", 2) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] < values[1] ? values[1] : values[0];
             }
         };
@@ -443,10 +446,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction11() throws Exception {
-        Function custom1 = new Function("power", 2) {
+        Function<Double, Double> custom1 = new Function<Double, Double>("power", 2) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return Math.pow(values[0], values[1]);
             }
         };
@@ -463,10 +466,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction12() throws Exception {
-        Function custom1 = new Function("max", 5) {
+        Function<Double, Double> custom1 = new Function<Double, Double>("max", 5) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 double max = values[0];
                 for (int i = 1; i < numArguments; i++) {
                     if (values[i] > max) {
@@ -484,10 +487,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction13() throws Exception {
-        Function custom1 = new Function("max", 3) {
+        Function<Double, Double> custom1 = new Function<Double, Double>("max", 3) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 double max = values[0];
                 for (int i = 1; i < numArguments; i++) {
                     if (values[i] > max) {
@@ -508,10 +511,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction14() throws Exception {
-        Function custom1 = new Function("multiply", 2) {
+        Function<Double, Double> custom1 = new Function<Double, Double>("multiply", 2) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * values[1];
             }
         };
@@ -521,17 +524,17 @@ public class ExpressionBuilderTest {
                 .function(custom1)
                 .build()
                 .setVariable("x", varX);
-        double expected = Math.sin(varX) * (varX + 1);
+        double expected = Math.sin(varX * UnitsTools.rad) * (varX + 1);
         double actual = e.evaluate();
         assertTrue(expected == actual);
     }
 
     @Test
     public void testFunction15() throws Exception {
-        Function custom1 = new Function("timesPi") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("timesPi") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.PI;
             }
         };
@@ -548,10 +551,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testFunction16() throws Exception {
-        Function custom1 = new Function("multiply", 3) {
+        Function<Double, Double> custom1 = new Function<Double, Double>("multiply", 3) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * values[1] * values[2];
             }
         };
@@ -561,16 +564,16 @@ public class ExpressionBuilderTest {
                 .function(custom1)
                 .build()
                 .setVariable("x", varX);
-        double expected = Math.sin(varX) * Math.pow((varX + 1), -2) * Math.log(varX);
+        double expected = Math.sin(varX * UnitsTools.rad) * Math.pow((varX + 1), -2) * Math.log(varX);
         assertTrue(expected == e.evaluate());
     }
 
     @Test
     public void testFunction17() throws Exception {
-        Function custom1 = new Function("timesPi") {
+        Function<Double, Double> custom1 = new Function<Double, Double>("timesPi") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] * Math.PI;
             }
         };
@@ -589,10 +592,10 @@ public class ExpressionBuilderTest {
     // i have this test, which fails in 0.2.9
     @Test
     public void testFunction18() throws Exception {
-        Function minFunction = new Function("min", 2) {
+        Function<Double, Double> minFunction = new Function<Double, Double>("min", 2) {
 
             @Override
-            public double apply(double[] values) {
+            public Double apply(Double[] values) {
                 double currentMin = Double.POSITIVE_INFINITY;
                 for (double value : values) {
                     currentMin = Math.min(currentMin, value);
@@ -611,10 +614,10 @@ public class ExpressionBuilderTest {
     // i have this test, which fails in 0.3.2
     @Test
     public void testFunction19() throws Exception {
-        Function minFunction = new Function("power", 2) {
+        Function<Double, Double> minFunction = new Function<Double, Double>("power", 2) {
 
             @Override
-            public double apply(double[] values) {
+            public Double apply(Double[] values) {
                 return Math.pow(values[0], values[1]);
             }
         };
@@ -629,10 +632,10 @@ public class ExpressionBuilderTest {
     // this test has been added in 0.3.5
     @Test
     public void testFunction20() throws Exception {
-        Function maxFunction = new Function("max", 3) {
+        Function<Double, Double> maxFunction = new Function<Double, Double>("max", 3) {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 double max = values[0];
                 for (int i = 1; i < numArguments; i++) {
                     if (values[i] > max) {
@@ -836,22 +839,22 @@ public class ExpressionBuilderTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testInvalidFunction1() throws Exception {
-        Function func = new Function("1gd") {
+        Function<Double, Double> func = new Function<Double, Double>("1gd") {
 
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testInvalidFunction2() throws Exception {
-        Function func = new Function("+1gd") {
+        Function<Double, Double> func = new Function<Double, Double>("+1gd") {
 
             @Override
-            public double apply(double... args) {
-                return 0;
+            public Double apply(Double... args) {
+                return 0d;
             }
         };
     }
@@ -948,7 +951,7 @@ public class ExpressionBuilderTest {
                 .build()
                 .setVariable("x", varX);
         double result = e.evaluate();
-        assertTrue(result == Math.log(Math.sin(varX)));
+        assertTrue(result == Math.log(Math.sin(varX * UnitsTools.rad)));
     }
 
     @Test
@@ -959,15 +962,15 @@ public class ExpressionBuilderTest {
                 .build()
                 .setVariable("x", varX);
         double result = e.evaluate();
-        assertTrue(result == Math.log(Math.sin(varX)));
+        assertTrue(result == Math.log(Math.sin(varX * UnitsTools.rad)));
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testSameName() throws Exception {
-        Function custom = new Function("bar") {
+        Function<Double, Double> custom = new Function<Double, Double>("bar") {
 
             @Override
-            public double apply(double... values) {
+            public Double apply(Double... values) {
                 return values[0] / 2;
             }
         };
@@ -1043,7 +1046,7 @@ public class ExpressionBuilderTest {
         double x = 1d;
         double y = 2d;
         String expr = "log(x) ^ sin(y)";
-        double expected = Math.pow(Math.log(x), Math.sin(y));
+        double expected = Math.pow(Math.log(x), Math.sin(y * UnitsTools.rad));
         Expression e = new ExpressionBuilder(expr)
                 .variables("x", "y")
                 .build()
@@ -1195,7 +1198,7 @@ public class ExpressionBuilderTest {
     public void testExpression23() throws Exception {
         String expr = "-2 *33.34/(log(foo)^-2 + 14 *6) - sin(foo)";
         double x = 1.334d;
-        double expected = -2 * 33.34 / (Math.pow(Math.log(x), -2) + 14 * 6) - Math.sin(x);
+        double expected = -2 * 33.34 / (Math.pow(Math.log(x), -2) + 14 * 6) - Math.sin(x * UnitsTools.rad);
         Expression e = new ExpressionBuilder(expr)
                 .variables("foo")
                 .build()
@@ -1308,10 +1311,10 @@ public class ExpressionBuilderTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testInvalidNumberofArguments2() throws Exception {
-        Function avg = new Function("avg", 4) {
+        Function<Double, Double> avg = new Function<Double, Double>("avg", 4) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 double sum = 0;
                 for (double arg : args) {
                     sum += arg;
@@ -1593,9 +1596,9 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testDocumentationExample6() throws Exception {
-        Function logb = new Function("logb", 2) {
+        Function<Double, Double> logb = new Function<Double, Double>("logb", 2) {
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 return Math.log(args[0]) / Math.log(args[1]);
             }
         };
@@ -1609,10 +1612,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testDocumentationExample7() throws Exception {
-        Function avg = new Function("avg", 4) {
+        Function<Double, Double> avg = new Function<Double, Double>("avg", 4) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 double sum = 0;
                 for (double arg : args) {
                     sum += arg;
@@ -1860,7 +1863,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(2 * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(2 * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1869,7 +1872,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(2 * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(2 * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1878,7 +1881,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(-2d * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(-2d * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1887,7 +1890,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(-2d * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(-2d * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1896,7 +1899,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(-E * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(-E * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1905,7 +1908,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(-E * E * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(-E * E * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1914,7 +1917,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(E * E * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(E * E * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1923,7 +1926,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build()
                 .setVariable("x", Math.E);
-        assertEquals(E * E * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(E * E * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1933,7 +1936,7 @@ public class ExpressionBuilderTest {
                 .build()
                 .setVariable("x", Math.E)
                 .setVariable("y", Math.sqrt(2));
-        assertEquals(sqrt(2) * E * Math.cos(Math.E), e.evaluate(), 0d);
+        assertEquals(sqrt(2) * E * Math.cos(Math.E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1943,7 +1946,7 @@ public class ExpressionBuilderTest {
                 .build()
                 .setVariable("x", Math.E)
                 .setVariable("y", Math.sqrt(2));
-        assertEquals(cos(sqrt(2) * E), e.evaluate(), 0d);
+        assertEquals(cos(sqrt(2) * E * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -1962,7 +1965,7 @@ public class ExpressionBuilderTest {
                 .build()
                 .setVariable("x", Math.E)
                 .setVariable("y", Math.sqrt(2));
-        assertEquals(cos(E * log(E * sqrt(2))), e.evaluate(), 0d);
+        assertEquals(cos(E * log(E * sqrt(2)) * UnitsTools.rad), e.evaluate(), 0d);
     }
 
     @Test
@@ -2157,7 +2160,7 @@ public class ExpressionBuilderTest {
         String expr;
         double expected;
         expr = "(sin(12) + log(34)) * 3.42 - cos(2.234-log(2))";
-        expected = (Math.sin(12) + Math.log(34)) * 3.42 - Math.cos(2.234 - Math.log(2));
+        expected = (Math.sin(12) + Math.log(34)) * 3.42 - Math.cos( (2.234 - Math.log(2))  * UnitsTools.rad );
         Expression e = new ExpressionBuilder(expr)
                 .build();
         assertTrue(expected == e.evaluate());
@@ -2248,7 +2251,7 @@ public class ExpressionBuilderTest {
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
             if (x == 0d) continue;
-            expected = Math.cos(x) - (1 / Math.cbrt(x));
+            expected = Math.cos(x * UnitsTools.rad) - (1 / Math.cbrt(x));
             assertTrue(expected == e.setVariable("x", x).evaluate());
         }
     }
@@ -2262,9 +2265,9 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
-            expected =
-                    Math.acos(x) * Math.expm1(Math.asin(x)) - Math.exp(Math.atan(x)) + Math.floor(x) + Math.cosh(x)
-                            - Math.sinh(Math.cbrt(x));
+            expected = 
+                    Math.acos(x) / UnitsTools.rad * Math.expm1(Math.asin(x) / UnitsTools.rad) - Math.exp(Math.atan(x) / UnitsTools.rad) + Math.floor(x) + Math.cosh(x * UnitsTools.rad)
+                            - Math.sinh(Math.cbrt(x) * UnitsTools.rad);
             if (Double.isNaN(expected)) {
                 assertTrue(Double.isNaN(e.setVariable("x", x).evaluate()));
             } else {
@@ -2282,7 +2285,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
-            expected = Math.acos(x);
+            expected = Math.acos(x) / UnitsTools.rad;
             if (Double.isNaN(expected)) {
                 assertTrue(Double.isNaN(e.setVariable("x", x).evaluate()));
             } else {
@@ -2318,7 +2321,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
-            expected = Math.asin(x);
+            expected = Math.asin(x) / UnitsTools.rad;
             if (Double.isNaN(expected)) {
                 assertTrue(Double.isNaN(e.setVariable("x", x).evaluate()));
             } else {
@@ -2364,7 +2367,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
-            expected = Math.cosh(x);
+            expected = Math.cosh(x * UnitsTools.rad);
             assertTrue(expected == e.setVariable("x", x).evaluate());
         }
     }
@@ -2378,7 +2381,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
-            expected = Math.sinh(x);
+            expected = Math.sinh(x * UnitsTools.rad);
             assertTrue(expected == e.setVariable("x", x).evaluate());
         }
     }
@@ -2406,7 +2409,7 @@ public class ExpressionBuilderTest {
                 .variables("x")
                 .build();
         for (double x = -10; x < 10; x = x + 0.5d) {
-            expected = Math.tanh(x);
+            expected = Math.tanh(x * UnitsTools.rad);
             assertTrue(expected == e.setVariable("x", x).evaluate());
         }
     }
@@ -2465,7 +2468,7 @@ public class ExpressionBuilderTest {
         double expected;
         double x = Math.E;
         expr = "tan(x)";
-        expected = Math.tan(x);
+        expected = Math.tan(x * UnitsTools.rad);
         Expression e = new ExpressionBuilder(expr)
                 .variables("x")
                 .build();
@@ -2478,7 +2481,7 @@ public class ExpressionBuilderTest {
         double expected;
         double varE = Math.E;
         expr = "2^3.4223232 + tan(e)";
-        expected = Math.pow(2, 3.4223232d) + Math.tan(Math.E);
+        expected = Math.pow(2, 3.4223232d) + Math.tan(Math.E * UnitsTools.rad);
         Expression e = new ExpressionBuilder(expr)
                 .variables("e")
                 .build();
@@ -2559,10 +2562,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testUnicodeVariable3() throws Exception {
-        Function log = new Function("λωγ", 1) {
+        Function<Double, Double> log = new Function<Double, Double>("λωγ", 1) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 return log(args[0]);
             }
         };
@@ -2577,10 +2580,10 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testUnicodeVariable4() throws Exception {
-        Function log = new Function("λ_ωγ", 1) {
+        Function<Double, Double> log = new Function<Double, Double>("λ_ωγ", 1) {
 
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 return log(args[0]);
             }
         };
@@ -2671,10 +2674,10 @@ public class ExpressionBuilderTest {
     // https://github.com/fasseg/exp4j/issues/23
     @Test
     public void testSecondArgumentNegative() throws Exception {
-        Function round = new Function("MULTIPLY", 2) {
+        Function<Double, Double> round = new Function<Double, Double>("MULTIPLY", 2) {
             @Override
-            public double apply(double... args) {
-                return Math.round(args[0] * args[1]);
+            public Double apply(Double... args) {
+                return Double.valueOf(Math.round(args[0] * args[1]));
             }
         };
         double result = new ExpressionBuilder("MULTIPLY(2,-1)")
@@ -2758,10 +2761,10 @@ public class ExpressionBuilderTest {
     public void testSameVariableAndUserFunctionName() {
         Expression e = new ExpressionBuilder("2*tr+tr(2)")
                 .variables("tr")
-                .function(new Function("tr") {
+                .function(new Function<Double, Double>("tr") {
                     @Override
-                    public double apply(double... args) {
-                        return 0;
+                    public Double apply(Double... args) {
+                        return 0d;
                     }
                 })
                 .build();
@@ -2796,9 +2799,9 @@ public class ExpressionBuilderTest {
 
     @Test
     public void testCustomPercent() {
-        Function percentage = new Function("percentage", 2) {
+        Function<Double, Double> percentage = new Function<Double, Double>("percentage", 2) {
             @Override
-            public double apply(double... args) {
+            public Double apply(Double... args) {
                 double val = args[0];
                 double percent = args[1];
                 if (percent < 0) {

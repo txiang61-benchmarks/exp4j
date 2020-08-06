@@ -23,6 +23,9 @@ import javax.script.ScriptEngineManager;
 
 import org.junit.Test;
 
+import units.qual.*;
+import units.UnitsTools;
+
 public class PerformanceTest {
 
     private static final long BENCH_TIME = 2l;
@@ -85,7 +88,7 @@ public class PerformanceTest {
         while (time > System.currentTimeMillis()) {
             x = rnd.nextDouble();
             y = rnd.nextDouble();
-            val = Math.log(x) - y * (Math.sqrt(Math.pow(x, Math.cos(y))));
+            val = Math.log(x) - y * (Math.sqrt(Math.pow(x, Math.cos(y * UnitsTools.rad))));
             count++;
         }
         rate = count / timeout;
