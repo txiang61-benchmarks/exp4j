@@ -1,0 +1,1696 @@
+package units.qual:
+  annotation @g8:
+
+package units.qual:
+  annotation @m2PERs2:
+
+package units.qual:
+  annotation @UnknownUnits:
+
+package units.qual:
+  annotation @MJ:
+
+package units.qual:
+  annotation @ns:
+
+package units.qual:
+  annotation @RDU:
+
+package units.qual:
+  annotation @kgPERm2s:
+
+package units.qual:
+  annotation @W:
+
+package units.qual:
+  annotation @PolyUnit:
+
+package units.qual:
+  annotation @J:
+
+package units.qual:
+  annotation @g:
+
+package units.qual:
+  annotation @K:
+
+package units.qual:
+  annotation @m2:
+
+package units.qual:
+  annotation @hr:
+
+package units.qual:
+  annotation @us:
+
+package units.qual:
+  annotation @MJPERm3:
+
+package units.qual:
+  annotation @rad:
+
+package units.qual:
+  annotation @bars3PERm:
+
+package units.qual:
+  annotation @m:
+
+package units.qual:
+  annotation @WPERm2K:
+
+package units.qual:
+  annotation @mol:
+
+package units.qual:
+  annotation @bar:
+
+package units.qual:
+  annotation @m3PERhr:
+
+package units.qual:
+  annotation @Pas:
+
+package units.qual:
+  annotation @kgPERs:
+
+package units.qual:
+  annotation @m2s2:
+
+package units.qual:
+  annotation @mPERs2:
+
+package units.qual:
+  annotation @kg:
+
+package units.qual:
+  annotation @m2PERs2K:
+
+package units.qual:
+  annotation @mm:
+
+package units.qual:
+  annotation @kg2PERs2:
+
+package units.qual:
+  annotation @C:
+
+package units.qual:
+  annotation @deg:
+
+package units.qual:
+  annotation @kgPERmol:
+
+package units.qual:
+  annotation @mm2:
+
+package units.qual:
+  annotation @ms:
+
+package units.qual:
+  annotation @UnitsBottom:
+
+package units.qual:
+  annotation @Pa:
+
+package units.qual:
+  annotation @km:
+
+package units.qual:
+  annotation @mPERs:
+
+package units.qual:
+  annotation @s2PERm2:
+
+package units.qual:
+  annotation @gPERmol:
+
+package units.qual:
+  annotation @kgPERm3:
+
+package units.qual:
+  annotation @JPERKmol:
+
+package units.qual:
+  annotation @s:
+
+package units.qual:
+  annotation @BUC:
+    String unit
+    int exponent
+
+package units.qual:
+  annotation @UnitsRep:
+    boolean top
+    boolean bot
+    int prefixExponent
+    annotation-field units.qual.BUC[] baseUnitComponents
+
+package units.qual:
+  annotation @PERm2s2:
+
+package units.qual:
+  annotation @m3:
+
+package units.qual:
+  annotation @Dimensionless:
+
+package net.objecthunter.exp4j:
+class ValidationResult:
+field errors:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+field SUCCESS:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field valid:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method isValid()Z:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method getErrors()Ljava/util/List;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$12:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.rad
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$11:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.rad
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$10:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.rad
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$16:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Function:
+field name:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field numArguments:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getAllowedFunctionCharacters()[C:
+insert-annotation Method.body, Block.statement 3, ForLoop.statement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ForLoop.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ForLoop.statement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ForLoop.initializer 0, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ForLoop.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewArray.dimension 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ForLoop.initializer 0, Variable.initializer: @units.qual.Dimensionless
+
+method apply([LP;)LR;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter -1, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.parameter -1, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method getNumArguments()I:
+insert-annotation Method.parameter -1, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.parameter -1, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;I)V:
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.body, Block.statement 0, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+
+method getName()Ljava/lang/String;:
+insert-annotation Method.parameter -1, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter -1, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method isValidFunctionName(Ljava/lang/String;)Z:
+insert-annotation Method.body, Block.statement 3, ForLoop.statement, Block.statement 1, If.elseStatement, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ForLoop.initializer 0, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ForLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$15:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+
+package net.objecthunter.exp4j.function:
+class Functions:
+insert-annotation Class.initializer 0, Block.statement 12, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 11, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 13, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 14, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 11, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 12, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 13, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 14, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 19, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 20, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 21, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 22, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 7, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 8, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 9, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 10, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 15, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 16, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 17, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 18, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 7, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 8, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 9, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 10, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 19, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 20, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 21, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 22, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 6, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 11, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 12, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 13, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 14, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 19, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 20, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 21, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 22, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 19, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 20, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 21, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 22, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 15, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 16, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 17, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 18, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 7, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 8, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 9, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 10, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 15, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 16, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 17, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 18, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.rad
+insert-annotation Class.initializer 0, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 6, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 6, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+
+field INDEX_COSH:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_LOG2:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_EXPM1:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_SQRT:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_LOG:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_TANH:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_ASIN:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_COT:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_COS:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_LOG10:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_ABS:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_POW:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_TAN:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_ACOS:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_SGN:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_SIN:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_CBRT:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_EXP:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_SINH:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field builtinFunctions:
+insert-annotation Variable.initializer, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewArray.dimension 0: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_CEIL:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_ATAN:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_LOG1P:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_FLOOR:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method <init>()V:
+
+package net.objecthunter.exp4j.function:
+class Functions$14:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$13:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$19:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$18:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$17:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class OperatorToken:@units.qual.Dimensionless
+field operator:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getOperator()Lnet/objecthunter/exp4j/operator/Operator;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Lnet/objecthunter/exp4j/operator/Operator;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class FunctionToken:
+field function:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getFunction()Lnet/objecthunter/exp4j/function/Function;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class NumberToken:
+field value:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getValue()D:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j:
+class ExpressionBuilder:@units.qual.Dimensionless
+field expression:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field userOperators:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+
+field userFunctions:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+
+field variableNames:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+field implicitMultiplication:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method operator(Ljava/util/List;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method checkOperatorSymbol(Lnet/objecthunter/exp4j/operator/Operator;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, EnhancedForLoop.statement, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+
+method variables([Ljava/lang/String;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method function(Lnet/objecthunter/exp4j/function/Function;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method operator([Lnet/objecthunter/exp4j/operator/Operator;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method build()Lnet/objecthunter/exp4j/Expression;:
+insert-annotation Method.body, Block.statement 5, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, EnhancedForLoop.statement, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, Return.expression, NewClass.identifier: @units.qual.Dimensionless
+
+method operator(Lnet/objecthunter/exp4j/operator/Operator;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method functions(Ljava/util/List;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method implicitMultiplication(Z)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method variables(Ljava/util/Set;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method variable(Ljava/lang/String;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method functions([Lnet/objecthunter/exp4j/function/Function;)Lnet/objecthunter/exp4j/ExpressionBuilder;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operator:
+field PRECEDENCE_SUBTRACTION:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field PRECEDENCE_MODULO:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field PRECEDENCE_UNARY_MINUS:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field precedence:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field PRECEDENCE_POWER:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field PRECEDENCE_MULTIPLICATION:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field PRECEDENCE_DIVISION:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field symbol:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field ALLOWED_OPERATOR_CHARS:
+insert-annotation Variable.initializer, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+field PRECEDENCE_ADDITION:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field PRECEDENCE_UNARY_PLUS:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field numOperands:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field leftAssociative:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getNumOperands()I:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method isLeftAssociative()Z:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method getPrecedence()I:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method getSymbol()Ljava/lang/String;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method isAllowedOperatorChar(C)Z:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method apply([D)D:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j:
+class ArrayStack:
+field idx:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field data:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method peek()D:
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+
+method pop()D:
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>()V:
+insert-annotation Method.body, Block.statement 0, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+
+method size()I:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+method push(D)V:
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.initializer, NewArray.dimension 0, Binary.leftOperand, TypeCast.expression, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.initializer, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 1, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 1, ExpressionStatement.expression, MethodInvocation.argument 3: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.initializer, NewArray.dimension 0, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.initializer, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.initializer, NewArray.dimension 0, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method isEmpty()Z:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+method <init>(I)V:
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, Assignment.expression: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$1:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class Tokenizer:
+field expression:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+field lastToken:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field implicitMultiplication:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field pos:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field expressionLength:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field userOperators:
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+
+field userFunctions:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+
+field variableNames:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method isEndOfExpression(I)Z:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method parseNumberToken(C)Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.leftOperand, ArrayAccess.index, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.leftOperand, ArrayAccess.index, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, WhileLoop.condition, Parenthesized.expression, Binary.rightOperand, MethodInvocation.argument 1, Binary.leftOperand, Binary.leftOperand, ArrayAccess.index, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, WhileLoop.condition, Parenthesized.expression, Binary.rightOperand, MethodInvocation.argument 1, Binary.rightOperand, Binary.leftOperand, ArrayAccess.index, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+
+method getFunction(Ljava/lang/String;)Lnet/objecthunter/exp4j/function/Function;:
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method isVariableOrFunctionCharacter(I)Z:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method parseOperatorToken(C)Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.body, Block.statement 1, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, WhileLoop.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, WhileLoop.statement, Block.statement 1, If.thenStatement, Block.statement 0, ExpressionStatement.expression, MethodInvocation.argument 0, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, WhileLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+method isCloseParentheses(C)Z:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method isNumeric(CZ)Z:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method getOperator(Ljava/lang/String;)Lnet/objecthunter/exp4j/operator/Operator;:
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 2, ExpressionStatement.expression, Assignment.expression, MethodInvocation.argument 0, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 0, Variable.initializer, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 1, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 1, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.elseStatement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 1, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 1, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression: @units.qual.Dimensionless
+
+method isAlphabetic(I)Z:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method isArgumentSeparator(C)Z:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Set;)V:
+insert-annotation Method.parameter 2, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method parseArgumentSeparatorToken(C)Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method parseFunctionOrVariable()Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, WhileLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, WhileLoop.statement, Block.statement 0, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, If.thenStatement, Block.statement 0, Throw.expression, NewClass.argument 0, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, WhileLoop.statement, Block.statement 1, If.elseStatement, Block.statement 1, If.thenStatement, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, WhileLoop.statement, Block.statement 1, If.thenStatement, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, WhileLoop.statement, Block.statement 1, If.elseStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, ExpressionStatement.expression, Assignment.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, WhileLoop.statement, Block.statement 3, ExpressionStatement.expression, Assignment.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+method parseParentheses(Z)Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.elseStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method isOpenParentheses(C)Z:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method nextToken()Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.argument 0, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.elseStatement, If.elseStatement, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.argument 0, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, If.elseStatement, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, If.elseStatement, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.argument 0, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.argument 0, Binary.leftOperand, Binary.leftOperand, Binary.leftOperand, Binary.rightOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, Throw.expression, NewClass.argument 0, Binary.leftOperand, Binary.leftOperand, Binary.leftOperand, Binary.rightOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.elseStatement, If.elseStatement, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+
+method hasNext()Z:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$4:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Return.expression, Binary.leftOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Return.expression, Binary.rightOperand, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$5:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators:@units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 6, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 7, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 3, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 5, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 6, ExpressionStatement.expression, Assignment.expression, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 7, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+
+field INDEX_ADDITION:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_DIVISION:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field builtinOperators:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewArray.dimension 0: @units.qual.Dimensionless
+
+field INDEX_UNARYPLUS:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_MODULO:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_UNARYMINUS:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field INDEX_SUBTRACTION:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_POWER:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field INDEX_MUTLIPLICATION:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method <init>()V:
+
+method getBuiltinOperator(CI)Lnet/objecthunter/exp4j/operator/Operator;:
+insert-annotation Method.body, Block.statement 0, Switch.case 0, Case.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Switch.case 1, Case.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$2:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$3:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.rad
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class Token:
+field TOKEN_VARIABLE:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field TOKEN_OPERATOR:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field TOKEN_SEPARATOR:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field TOKEN_NUMBER:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field TOKEN_PARENTHESES_CLOSE:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field type:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field TOKEN_FUNCTION:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field TOKEN_PARENTHESES_OPEN:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+method getType()I:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$8:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$9:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$6:
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.rightOperand, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.leftOperand, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$7:
+method <init>(Ljava/lang/String;)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j:
+class Expression$1:
+method call()Ljava/lang/Double;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>()V:
+
+package net.objecthunter.exp4j.function:
+class Functions$23:
+method <init>(Ljava/lang/String;I)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.elseStatement, If.thenStatement, Block.statement 0, Return.expression, Unary.expression: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.elseStatement, If.condition, Parenthesized.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.elseStatement, If.elseStatement, Block.statement 0, Return.expression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Return.expression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.elseStatement, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators$7:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 1, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.shuntingyard:
+class ShuntingYard:@units.qual.Dimensionless
+method convertToRPN(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Set;Z)[Lnet/objecthunter/exp4j/tokenizer/Token;:
+insert-annotation Method.body, Block.statement 5, Return.expression, TypeCast.expression, MethodInvocation.argument 0, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 4, Case.statement 0, WhileLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Return.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 4, Case.statement 0, WhileLoop.statement, Block.statement 2, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 4, Case.statement 0, WhileLoop.statement, Block.statement 1, Variable.initializer, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 3, Case.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Return.expression, TypeCast.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 4, Case.statement 0, WhileLoop.statement, Block.statement 2, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, WhileLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 7, Case.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Return.expression, TypeCast.expression, MethodInvocation.argument 0, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, WhileLoop.statement, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 4, Case.statement 0, WhileLoop.statement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, WhileLoop.statement, Block.statement 1, Switch.case 4, Case.statement 0, WhileLoop.statement, Block.statement 0, Variable.initializer, TypeCast.type: @units.qual.Dimensionless
+
+method <init>()V:
+
+package net.objecthunter.exp4j.operator:
+class Operators$6:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.body, Block.statement 1, Return.expression, Binary.rightOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$22:
+method <init>(Ljava/lang/String;I)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$21:
+method <init>(Ljava/lang/String;I)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class UnknownFunctionOrVariableException:
+field expression:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field serialVersionUID:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field message:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field token:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field position:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getPosition()I:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method token(Ljava/lang/String;II)Ljava/lang/String;:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer, Binary.rightOperand: @units.qual.Dimensionless
+
+method getToken()Ljava/lang/String;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method getExpression()Ljava/lang/String;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method getMessage()Ljava/lang/String;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators$8:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, Binary.rightOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.function:
+class Functions$20:
+method <init>(Ljava/lang/String;I)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method apply([Ljava/lang/Double;)Ljava/lang/Double;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 1, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j:
+class Expression:@units.qual.Dimensionless
+field userFunctionNames:
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+field tokens:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+field variables:
+insert-annotation Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method checkVariableName(Ljava/lang/String;)V:
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method evaluateAsync(Ljava/util/concurrent/ExecutorService;)Ljava/util/concurrent/Future;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method <init>(Lnet/objecthunter/exp4j/Expression;)V:
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, Assignment.expression, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method setVariables(Ljava/util/Map;)Lnet/objecthunter/exp4j/Expression;:
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, EnhancedForLoop.variable, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method <init>([Lnet/objecthunter/exp4j/tokenizer/Token;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method createDefaultVariables()Ljava/util/Map;:
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 1: @units.qual.Dimensionless
+
+method getVariableNames()Ljava/util/Set;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, EnhancedForLoop.statement, Block.statement 0, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method setVariable(Ljava/lang/String;D)Lnet/objecthunter/exp4j/Expression;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method evaluate()D:
+insert-annotation Method.body, Block.statement 1, ForLoop.initializer 0, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 2, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 3, Variable.initializer, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 2, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 4, ForLoop.initializer 0, Variable.initializer, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 2, If.elseStatement, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 4, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 3, Variable.initializer, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 2, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.thenStatement, Block.statement 0, ExpressionStatement.expression, MethodInvocation.argument 0, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 4, ForLoop.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, Variable.initializer, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 0, Variable.initializer, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 2, If.thenStatement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, Variable.initializer, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 2, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 1, If.thenStatement, Block.statement 0, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, ForLoop.statement, Block.statement 1, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 2, If.elseStatement, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+method <init>([Lnet/objecthunter/exp4j/tokenizer/Token;Ljava/util/Set;)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method validate(Z)Lnet/objecthunter/exp4j/ValidationResult;:
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 2, Case.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 3, Case.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Return.expression, ConditionalExpression.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, EnhancedForLoop.statement, Block.statement 0, If.thenStatement, Block.statement 0, Variable.initializer, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.variable, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Return.expression, ConditionalExpression.falseExpression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 2, Case.statement 0, Variable.initializer, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 3, Case.statement 0, Variable.initializer, MethodInvocation.methodSelect, MemberSelect.expression, Parenthesized.expression, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 3, Case.statement 1, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 2, Case.statement 3, If.elseStatement, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 2, Case.statement 3, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 2, Case.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, If.thenStatement, Block.statement 0, EnhancedForLoop.statement, Block.statement 0, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 0, Switch.case 2, Case.statement 3, If.thenStatement, Block.statement 0, ExpressionStatement.expression, CompoundAssignment.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, EnhancedForLoop.statement, Block.statement 1, If.thenStatement, Block.statement 1, Return.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method validate()Lnet/objecthunter/exp4j/ValidationResult;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class VariableToken:
+field name:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+method getName()Ljava/lang/String;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.tokenizer:
+class CloseParenthesesToken:@units.qual.Dimensionless
+method <init>()V:
+
+package net.objecthunter.exp4j.operator:
+class Operators$3:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.body, Block.statement 0, Return.expression, Unary.expression, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators$2:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.rightOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators$5:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.rightOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators$4:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, ArrayAccess.index: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package net.objecthunter.exp4j.operator:
+class Operators$1:@units.qual.Dimensionless
+method apply([D)D:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.leftOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, Binary.rightOperand, ArrayAccess.index: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method <init>(Ljava/lang/String;IZI)V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+

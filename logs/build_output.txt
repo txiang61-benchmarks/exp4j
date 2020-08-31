@@ -1,0 +1,385 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Apache Maven 3.6.0
+Maven home: /usr/share/maven
+Java version: 11.0.8, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en_US, platform encoding: UTF8
+OS name: "linux", version: "5.4.0-1021-gcp", arch: "amd64", family: "unix"
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /root/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /root/.m2/toolchains.xml
+[DEBUG] Using local repository at /root/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /root/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1036196, ConflictMarker.markTime=191254, ConflictMarker.nodeCount=9, ConflictIdSorter.graphTime=600293, ConflictIdSorter.topsortTime=483796, ConflictIdSorter.conflictIdCount=5, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4125458, ConflictResolver.conflictItemCount=9, DefaultDependencyCollector.collectTime=271578723, DefaultDependencyCollector.transformTime=10021007}
+[DEBUG] org.apache.maven.wagon:wagon-ssh-external:jar:2.7:
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG]    org.apache.maven.wagon:wagon-ssh-common:jar:2.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:2.7:compile
+[DEBUG] Created new class realm extension>org.apache.maven.wagon:wagon-ssh-external:2.7
+[DEBUG] Importing foreign packages into class realm extension>org.apache.maven.wagon:wagon-ssh-external:2.7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.apache.maven.wagon:wagon-ssh-external:2.7
+[DEBUG]   Included: org.apache.maven.wagon:wagon-ssh-external:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG]   Included: org.apache.maven.wagon:wagon-ssh-common:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6
+[DEBUG] Extension realms for project net.objecthunter:exp4j:jar:0.4.9-SNAPSHOT: [ClassRealm[extension>org.apache.maven.wagon:wagon-ssh-external:2.7, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]]
+[DEBUG] Created new class realm project>net.objecthunter:exp4j:0.4.9-SNAPSHOT
+[DEBUG] Populating class realm project>net.objecthunter:exp4j:0.4.9-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[project>net.objecthunter:exp4j:0.4.9-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: net.objecthunter:exp4j:jar:0.4.9-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------------< net.objecthunter:exp4j >-----------------------
+[INFO] Building exp4j 0.4.9-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       net.objecthunter:exp4j:0.4.9-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">UTF-8</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.6</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.6</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=80188, ConflictMarker.markTime=39626, ConflictMarker.nodeCount=6, ConflictIdSorter.graphTime=30570, ConflictIdSorter.topsortTime=19019, ConflictIdSorter.conflictIdCount=5, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=592034, ConflictResolver.conflictItemCount=5, DefaultDependencyCollector.collectTime=48863534, DefaultDependencyCollector.transformTime=788249}
+[DEBUG] net.objecthunter:exp4j:jar:0.4.9-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.11:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    ch.qos.logback:logback-classic:jar:1.1.1:test
+[DEBUG]       ch.qos.logback:logback-core:jar:1.1.1:test
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.6:test
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ exp4j ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=576403, ConflictMarker.markTime=207836, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=229193, ConflictIdSorter.topsortTime=46583, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=20411703, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=262604424, DefaultDependencyCollector.transformTime=21536971}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < project>net.objecthunter:exp4j:0.4.9-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: net.objecthunter:exp4j:0.4.9-SNAPSHOT @ /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2f7dcef2
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {awt.toolkit=sun.awt.X11.XToolkit, env.TERM=xterm, java.specification.version=11, sun.cpu.isalist=, sun.jnu.encoding=ANSI_X3.4-1968, sun.arch.data.model=64, java.vendor.url=https://ubuntu.com/, sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib, maven.build.version=Apache Maven 3.6.0, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X -B -B -DskipTests compile, jdk.debug=release, maven.home=/usr/share/maven, maven.version=3.6.0, java.specification.vendor=Oracle Corporation, java.version.date=2020-07-14, java.home=/usr/lib/jvm/java-11-openjdk-amd64, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.8+10-post-Ubuntu-0ubuntu118.04.1, user.name=root, env.PATH=/home/opprop/annotation-tools/annotation-file-utilities/scripts:/home/opprop/z3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, env.AFU=/home/opprop/annotation-tools/annotation-file-utilities, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, file.encoding=UTF8, env.HOSTNAME=9ca410e9e0b0, env._=/usr/bin/python, env.SHLVL=3, java.io.tmpdir=/tmp, java.version=11.0.8, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, env.CHECKERFRAMEWORK=/home/opprop/checker-framework, sun.os.patch.level=unknown, java.library.path=/home/opprop/checker-framework-inference/lib:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Ubuntu, classworlds.conf=/usr/share/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, library.jansi.path=/usr/share/maven/lib/jansi-native, env.OLDPWD=/home/opprop/units-inference/benchmarks/paper-annotation/exp4j, env.PWD=/home/opprop/units-inference/benchmarks/paper-annotation/exp4j, env.LESSOPEN=| /usr/bin/lesspipe %s, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.HOME=/root, java.vm.vendor=Ubuntu, env.CLASSPATH=/home/opprop/units-inference/build/classes/java/main:/home/opprop/units-inference/build/resources/main:/home/opprop/units-inference/build/libs/units-inference.jar, user.timezone=, env.external_checker_classpath=/home/opprop/units-inference/build/classes/java/main:/home/opprop/units-inference/build/resources/main:/home/opprop/units-inference/build/libs/units-inference.jar, maven.conf=/usr/share/maven/conf, os.name=Linux, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, env.LD_LIBRARY_PATH=/home/opprop/checker-framework-inference/lib, sun.cpu.endian=little, user.home=/root, env.DYLD_LIBRARY_PATH=/home/opprop/checker-framework-inference/lib, user.language=en, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.PUNITS=/home/opprop/units-inference, path.separator=:, os.version=5.4.0-1021-gcp, java.runtime.name=OpenJDK Runtime Environment, project.build.sourceEncoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, skipTests=true, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.MAVEN_CMD_LINE_ARGS= -X -B -B -DskipTests compile, java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts, user.dir=/home/opprop/units-inference/benchmarks/paper-annotation/exp4j, os.arch=amd64, maven.multiModuleProjectDirectory=/home/opprop/units-inference/benchmarks/paper-annotation/exp4j, env.MAVEN_PROJECTBASEDIR=/home/opprop/units-inference/benchmarks/paper-annotation/exp4j, java.vm.info=mixed mode, sharing, java.vm.version=11.0.8+10-post-Ubuntu-0ubuntu118.04.1, java.class.version=55.0}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ exp4j ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1395085, ConflictMarker.markTime=420685, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=325719, ConflictIdSorter.topsortTime=94802, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6619468, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=496441446, DefaultDependencyCollector.transformTime=8899500}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < project>net.objecthunter:exp4j:0.4.9-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/opprop/units-inference/benchmarks/paper-annotation/exp4j
+[DEBUG]   (f) buildDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target
+[DEBUG]   (f) classpathElements = [/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes
+[DEBUG]   (f) projectArtifact = net.objecthunter:exp4j:jar:0.4.9-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.6
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.6
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@2f7dcef2
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@2f7dcef2
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java]
+[DEBUG] Classpath: [/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes]
+[DEBUG] Output directory: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/OperatorToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/Expression.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/function/Functions.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/operator/Operators.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/function/Function.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/Token.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/shuntingyard/ShuntingYard.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/operator/Operator.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/ExpressionBuilder.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/CloseParenthesesToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/Tokenizer.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/UnknownFunctionOrVariableException.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/NumberToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/ArrayStack.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/VariableToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/OpenParenthesesToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/FunctionToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/ArgumentSeparatorToken.java
+[DEBUG] Stale source detected: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/ValidationResult.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes
+[DEBUG] Source roots:
+[DEBUG]  /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes -classpath /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes: -sourcepath /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java: -s /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/generated-sources/annotations -g -nowarn -target 1.6 -source 1.6 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 19 source files to /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[WARNING] /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/Expression.java: /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/Expression.java uses unchecked or unsafe operations.
+[WARNING] /home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/Expression.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.299 s
+[INFO] Finished at: 2020-08-31T04:12:46-04:00
+[INFO] ------------------------------------------------------------------------

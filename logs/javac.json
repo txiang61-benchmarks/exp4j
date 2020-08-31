@@ -1,0 +1,36 @@
+[
+    {
+        "java_files": [
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/OperatorToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/Expression.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/function/Functions.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/operator/Operators.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/function/Function.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/Token.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/shuntingyard/ShuntingYard.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/operator/Operator.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/ExpressionBuilder.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/CloseParenthesesToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/Tokenizer.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/UnknownFunctionOrVariableException.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/NumberToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/ArrayStack.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/VariableToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/OpenParenthesesToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/FunctionToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/tokenizer/ArgumentSeparatorToken.java", 
+            "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java/net/objecthunter/exp4j/ValidationResult.java"
+        ], 
+        "javac_switches": {
+            "classpath": "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes:", 
+            "d": "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/classes", 
+            "encoding": "UTF-8", 
+            "g": true, 
+            "nowarn": true, 
+            "s": "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/target/generated-sources/annotations", 
+            "source": "1.6", 
+            "sourcepath": "/home/opprop/units-inference/benchmarks/paper-annotation/exp4j/src/main/java:", 
+            "target": "1.6"
+        }
+    }
+]
